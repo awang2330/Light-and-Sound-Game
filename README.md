@@ -11,7 +11,7 @@ Memory Game is a Light & Sound Memory game to apply for CodePath's SITE Program.
 
 Submitted by: Ann Wang
 
-Time spent: 6 hours spent in total
+Time spent: 7 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/resisted-unequaled-yarn?path=README.md%3A44%3A11
 
@@ -39,12 +39,22 @@ The following optional features are implemented:
 The following additional features are implemented:
 
 [ ] List anything else that you can get done to improve the app!
-[ ] Choose level of complexity - more time
+[Y] Choose level of complexity - more time
 [ ] Choose level of complexity - more patterns
 Video Walkthrough
 Here's a walkthrough of implemented user stories:
-(![](https://i.imgur.com/IWUKPSY.gif)
-)
+
+Start/Stop:
+![](https://i.imgur.com/jOGpB9m.gif)
+
+
+Lose:
+![](https://i.imgur.com/I6Y4jBj.gif)
+
+
+Win:
+![](https://i.imgur.com/NFvZ25t.gif)
+
 
 Reflection Questions
 If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. a) for math.random(provided) b) for images: i) cat: https://image.freepik.com/free-photo/cat-medical-mask-quarantine-home_102583-2223.jpg ii) rabbit: https://media.istockphoto.com/photos/rabbit-in-the-medical-mask-picture-id1208392037?k=6&m=1208392037&s=170667a&w=0&h=WQXRGY_cTa4KvbYKMs2OKLdLRHleDD6IhpM6xBWRgnw= iii) dog: https://image.freepik.com/free-photo/small-dog-breed-pomeranian-with-light-brown-hair-sitting-wearing-anti-pollution-pm2-5-mask-it-feels-uncomfortable-so-it-trying-pull-mask-out_49003-627.jpg iv) guineapig: https://pbs.twimg.com/media/EUFA6MwVAAEb_jT.jpg?format=jpg&name=small v) pig: https://thumbs.dreamstime.com/b/pig-wearing-medical-face-mask-protect-herself-infection-181285248.jpg vi) turtle: https://th.bing.com/th/id/OIP.s5wGkLqF8HLcLgv93-kR5gHaE7?pid=ImgDet&rs=1 c) for background image: https://www.w3schools.com/cssref/pr_background-image.asp https://www.w3schools.com/cssref/css3_pr_background-size.asp d) for setinterval and clearinterval(provided)
@@ -69,4 +79,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
 
