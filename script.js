@@ -9,6 +9,7 @@ var numTries = 3; //number of tries
 var clueHoldTime = 400; //how long to hold each clue's light/sound
 var timer = 0;
 var time = 10;
+var startTime = 0;
 
 const numButtons = 6; //number of game buttons
 const patternSize = 8; //number of patterns
@@ -24,9 +25,31 @@ function guessTimer() {
   time--;
 }
 
+function findDifficulty() {
+  document.getElementById("easy").classList.remove("hidden");
+  document.getElementById("medium").classList.remove("hidden");
+  document.getElementById("hard").classList.remove("hidden");
+}
+
+/* set difficulty on click and playsequence */
+function setTimeDifficulty(time) {
+  startTime = time;
+  
+  document.getElementById("easy").classList.add("hidden");
+  document.getElementById("medium").classList.add("hidden");
+  document.getElementById("hard").classList.add("hidden");
+  
+  document.getElementById("triesLeft").innerHTML = "Tries Left: " + numTries;
+  playClueSequence();
+}
+
+function resetTime() {
+  time = startTime;
+}
+
 function clearTimer() {
   clearInterval(timer);
-  time = 10;
+  resetTime();
 }
 
 function getRandomInt(max) {
@@ -40,17 +63,18 @@ function startGame() {
   gamePlaying = true;
   clueHoldTime = 400;
   clearTimer();
-  
+ 
   // initialize the pattern array with size: patternSize element
   for (let i = 0; i < patternSize; i++) {
     // getRandomInt: [1,6]
     pattern[i] = getRandomInt(numButtons) + 1;
   }
   
-  document.getElementById("triesLeft").innerHTML = "Tries Left: " + numTries;
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
-  playClueSequence();
+  
+  // make visible difficultly buttons
+  findDifficulty();
 }
 
 function stopGame() {
@@ -60,6 +84,11 @@ function stopGame() {
   document.getElementById("timeLeft").innerHTML = "";
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
+  
+  // hide difficulty buttons
+  document.getElementById("easy").classList.add("hidden");
+  document.getElementById("medium").classList.add("hidden");
+  document.getElementById("hard").classList.add("hidden");
 }
 
 function lightButton(btn){
