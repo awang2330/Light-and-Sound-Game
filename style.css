@@ -1,0 +1,127 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #45567a;
+  color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+#startBtn, #stopBtn {
+  margin: 5px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+#startBtn:hover, #stopBtn:hover {
+  border: 2px solid #000
+}
+
+#gameButtonArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#gameButtonArea > button {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  background-imag
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+  background: green;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fcatmask.jpeg?v=1616295539654);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+} 
+
+#button2 {
+  background: lightblue;
+}
+
+#button2:active, #button2.lit {
+  background: blue;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fdogmask.jpeg?v=1616295509225);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3:active, #button3.lit {
+  background: red;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fturtlemask.jpeg?v=1616295506174);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160%;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+  background: yellow;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fguineamask.jpeg?v=1616295508175);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+}
+
+#button5 {
+  background: plum;
+}
+
+#button5:active, #button5.lit {
+  background: purple;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fpigmask.jpeg?v=1616295525139);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 140%;
+}
+
+#button6 {
+  background: #FCD299;
+}
+
+#button6:active, #button6.lit {
+  background: orange;
+  background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Frabbitmask.jpeg?v=1616295533072);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+
+
+
+
+
