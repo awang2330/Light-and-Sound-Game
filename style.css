@@ -37,8 +37,8 @@ button:focus {
 }
 
 #gameButtonArea > button {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   margin: 2px;
   background-imag
 }
@@ -68,7 +68,7 @@ button:focus {
   background-image: url(https://cdn.glitch.com/beb831ef-31b5-4a98-acb1-476959b9eb9f%2Fdogmask.jpeg?v=1616295509225);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150%;
+  background-size: 160%;
 }
 
 #button3 {
@@ -119,9 +119,15 @@ button:focus {
   background-size: 100%;
 }
 
+#easy {
+  border-radius: 50px;
+}
 
+#medium {
+  border-radius: 50px;
+}
 
-
-
-
+#hard {
+  border-radius: 50px;
+}
 
